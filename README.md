@@ -10,8 +10,6 @@ This Go project efficiently counts the number of unique IPv4 addresses in a pote
 - [Usage](#usage)
 - [Algorithm Explanation](#algorithm-explanation)
 - [Performance Considerations](#performance-considerations)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
@@ -81,10 +79,3 @@ This project uses an optimized algorithm to count unique IP addresses:
 - **Concurrency**: By using goroutines, the program can significantly reduce the time spent on sorting large datasets.
 - **Disk I/O**: While the program optimizes memory usage, its performance can still be influenced by disk I/O speeds, especially when handling very large files.
 
-## Contributing
-
-Contributions are welcome! If you find a bug or have an idea for an improvement, feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
